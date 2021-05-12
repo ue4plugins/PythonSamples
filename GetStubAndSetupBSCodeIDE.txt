@@ -1,0 +1,25 @@
+To setup quickly a Python Env for unreal:
+inside the project:
+- Activate plugins: 
+	Edit > Plugins
+		PythonEditorScriptPlugin
+		EditorScriptingUtilities
+	Restart the engine if needed
+- Configure the plugins:
+	Edit > Project Settings
+		Plugins > Python : Check "Developer Mode" (this mode publish Stub file in the intermediary folder of the project so we can use auto completion in our Python IDE)
+		Restart the engine
+- Setup the IDE:
+	Depending of your IDE, for Visual Code we do thing like this:
+	Open VSCode
+	Download/install/enable/configure Python and Pylance
+	configure your settings.json like this
+	{
+	  "python.pythonPath": "D:\\UE\\UE_4.25\\Engine\\Binaries\\ThirdParty\\Python\\Win64\\python.exe",
+	  "python.languageServer": "Pylance",
+	  "python.analysis.stubPath": "D:\\projects\\PythonStub\\4.24",
+	}
+	(note:  path can be relative if the setting are workspace based)
+	more documentation on how to launch a python script:
+	https://docs.unrealengine.com/en-US/Engine/Editor/ScriptingAndAutomation/Python/index.html
+	
