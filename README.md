@@ -28,6 +28,7 @@ Look into your installation folder *\Engine\Plugins\MovieScene\SequencerScriptin
 * *Asset_Import_task.py* : import all ies files contained in a directory.
 * *Batch_JT_Import.py* : batch import all JT files from a folder using a slow task.
 * *CAD_importer.py* : simple CAD import.
+* *Deltagen_Import_look_variants.py* : for variant import in UE from Deltagen exports, read and create look variants.
 * *Export_selected_actors_to_FBX.py* : Export all selected actors into a FBX file.
 * *import_ABC.py* : import an alembic file.
 * *Import_CAD_and_re-export_as_FBX_or_OBJ.py* : import CAD file, merge static meshes and export as FBX or OBJ format.
