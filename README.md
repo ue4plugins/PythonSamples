@@ -36,6 +36,8 @@ Look into your installation folder *\Engine\Plugins\MovieScene\SequencerScriptin
 * *Import_Datasmith_CAD_and_set_LODs.py* : multiple import of CAD file with different tessellation settings to use them as LOD on the final static mesh.
 * *Import_Datatable.py* : import JSON file following structure define in project as datatable.
 * *import_FBX.py* : import FBX.
+* *DataprepOperation.py* : example of a custom Dataprep Operation made in python, add tags to static mesh actor with specific string in actor label.
+* *Interchange_Pipeline.py* : example of a custom Interchange Pipeline made in python, override compression settings based on texture name suffix.
 
 ## Level
 * *Generate_Box_UV_on_selected_actors.py* : generate box style UV on all selected actors in the level.
