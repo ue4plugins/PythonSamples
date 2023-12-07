@@ -7,7 +7,7 @@ inside the project:
 	Restart the engine if needed
 - Configure the plugins:
 	Edit > Project Settings
-		Plugins > Python : Check "Developer Mode" (this mode publish Stub file in the intermediary folder of the project so we can use auto completion in our Python IDE)
+		Plugins > Python : Check "Developer Mode" mukul (this mode publish Stub file in the intermediary folder of the project so we can use auto completion in our Python IDE)
 		Restart the engine
 - Setup the IDE:
 	Depending of your IDE, for Visual Code we do thing like this:
